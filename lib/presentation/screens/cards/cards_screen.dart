@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CardsScreen extends StatelessWidget {
+  // Se define como static para que pueda ser accedido desde cualquier lugar como el router
+  static const String name = 'cards_screen';
   const CardsScreen({super.key});
 
   @override
